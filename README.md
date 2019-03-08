@@ -1,6 +1,7 @@
 **用法:**  
 下载解压，然后 `cordovlugin add D:\xxx\xxx\xxx\SandboxFileServer`  
-**注意：目前只支持最新版的 cordova**
+**注意：目前只支持最新版的 cordova**  
+cordova -v :   **8.1.2 (cordova-lib@8.1.1)**
 
 javascript:  
 `plugins.sandboxFileServer.openPrivateFtpServer(function(){}, function(){}, {applicationId: 'com.sv.test', serverPort: 8888}) `

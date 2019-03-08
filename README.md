@@ -1,4 +1,6 @@
 **用法:**  
+下载解压，然后 `cordovlugin add D:\xxx\xxx\xxx\SandboxFileServer`
+
 javascript:  
 `plugins.sandboxFileServer.openPrivateFtpServer(function(){}, function(){}, {applicationId: 'com.sv.test', serverPort: 8888}) `
 上面的脚本启动ftp服务器,并跳转到ftp服务器开关界面

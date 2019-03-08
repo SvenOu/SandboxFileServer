@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.sv.sandboxFileServer"
+    version="0.0.1">
+
+    <name>SandboxFileServer Plugin</name>
+
+    <description>ftp server for app private data.</description>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <license>MIT</license>
+
+   <!-- android -->
+    <platform name="android">
+
+        <js-module src="www/SandboxFileServer.js" name="sandboxFileServerPlugin">
+            <clobbers target="plugins.sandboxFileServer" />
+        </js-module>
+
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="SandboxFileServerPlugin">
+                <param name="android-package" value="com.sv.appfile.SandboxFileServerPlugin" />
+            </feature>
+        </config-file>
+
+        <config-file parent="/*" target="AndroidManifest.xml" />
+
+        <source-file src="src/android/SandboxFileServerPlugin.java" target-dir="src/com/sv/appfile" />
+        <framework src="src/android/libs/lib_app_file_manager" custom="true" />
+    </platform>
+	 <!-- ios -->
+
+</plugin>

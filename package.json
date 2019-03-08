@@ -1,0 +1,34 @@
+{
+  "author" : "SvenOu",
+  "cordova" : {
+    "id" : "com.sv.sandboxFileServer",
+    "platforms" : [
+      "android",
+      "ios"
+    ]
+  },
+  "description" : "This plugin is ftp server for app private data.",
+  "engines" : [
+    {
+      "name" : "cordova",
+      "version" : ">=4.0.0"
+    },
+    {
+      "name" : "cordova-android",
+      "version" : ">=4"
+    },
+    {
+      "name" : "cordova-plugman",
+      "version" : ">=4.2.0"
+    }
+  ],
+  "keywords" : [
+    "sandbox file server",
+    "fileserver",
+    "sandbox"
+  ],
+  "license" : "MIT",
+  "name" : "SandboxFileServer",
+  "repository" : {},
+  "version" : "0.0.1"
+}

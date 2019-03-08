@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP GENERAL -->
+    <color name="colorRed">#F44336</color>
+    <color name="colorGreen">#4CAF50</color>
+</resources>
